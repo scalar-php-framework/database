@@ -1,0 +1,14 @@
+{
+    "name": "scalar-php/database",
+    "description": "The Scalar PHP Framework Database",
+    "license": "MIT",
+    "type": "project",
+    "require": {
+      "php": ">=7.0.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "Scalar\\Database\\": ""
+      }
+    }
+}
