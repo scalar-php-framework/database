@@ -6,6 +6,6 @@ use Scalar\Database\Interfaces\Builder;
 
 class Model implements Builder
 {
-    use Query\Builder\Collection,
+    use QueryBuilder\Collection,
         Connection;
 }

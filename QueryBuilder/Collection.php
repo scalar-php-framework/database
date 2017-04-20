@@ -1,6 +1,6 @@
 <?php
 
-namespace Scalar\Database\Query\Builder;
+namespace Scalar\Database\QueryBuilder;
 
 trait Collection
 {
