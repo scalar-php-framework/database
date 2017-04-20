@@ -7,7 +7,7 @@ trait Collection
    protected $statement;
    protected $params = [];
    protected $count = 0;
-   public $items = [];
+   protected $items = [];
 
-   use \Scalar\Database\Query\Builder\Common;
+   use Common;
 }
